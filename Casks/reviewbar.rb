@@ -4,10 +4,10 @@ cask "reviewbar" do
 
   url "https://github.com/ganeshmani/reviewbar/releases/download/v#{version}/ReviewBar-#{version}.dmg"
   name "ReviewBar"
-  desc "Menu bar app for AI reviews of GitLab MRs and GitHub PRs via Claude Code or Codex"
+  desc "Menu bar app for AI reviews of GitLab MRs and GitHub PRs"
   homepage "https://github.com/ganeshmani/reviewbar"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ReviewBar.app"
 
